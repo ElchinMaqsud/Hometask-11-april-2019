@@ -1,0 +1,49 @@
+.registration{
+    width: 500px;
+    height: 550px;
+    background: green;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+.registration input{
+    width: 450px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-style: none;
+    outline: none;
+}
+.registration h1{
+    margin-left: 60px;
+}
+.warning{
+    width: 450px;
+    height: 25px;
+    background: rgb(255, 160, 176);
+    color: black;
+    margin-left: 20px;
+}
+h1{
+    font-size: 20px;
+}
+.warning2{
+    width: 450px;
+    height: 25px;
+    background: rgb(255, 160, 176);
+    color: black;
+    margin-left: 20px;
+}
+.warning3{
+    width: 450px;
+    height: 25px;
+    background: rgb(255, 160, 176);
+    color: black;
+    margin-left: 20px;
+}
+.warning4{
+    width: 450px;
+    height: 25px;
+    background: rgb(255, 160, 176);
+    color: black;
+    margin-left: 20px;
+}

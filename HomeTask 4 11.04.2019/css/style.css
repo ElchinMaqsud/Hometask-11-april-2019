@@ -1,0 +1,74 @@
+body{
+    background: black;
+}
+
+
+
+.main-photo
+{
+    width: 60vw;
+    height: 60vh;
+    margin: 0 auto;
+    position: relative;
+   
+}
+.left{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color:  white;
+    font-size: 2rem;
+    left: 5%;
+
+}
+.right{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 2rem;
+    right: 5%;
+}
+.close{
+    position: absolute;
+    top: -2%;
+    right: -8%;
+    font-size: 3rem;
+    color: red;
+    background: WHITE;
+}
+.main-photo img
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.images{
+    overflow: hidden;
+}
+.imageList{
+    list-style: none;
+    display:flex;
+    width: 1500px;
+    height: 700px;
+    
+}
+.imageList li{
+    width: 300px;
+    height: 300px;
+     filter: grayscale(90%);
+}
+    
+   
+    
+
+.imageList li img{
+    width: 100%;
+    object-fit: cover;
+    height: 50%;
+    border-radius: 16px;
+    
+}
+li.active{
+    filter: grayscale(0);
+}
